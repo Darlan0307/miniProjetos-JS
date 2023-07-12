@@ -38,7 +38,16 @@ body{
     padding: 5px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
     
+}
+
+#tarefa::placeholder{
+    color: rgba(0, 0, 0, 0.644);
+}
+
+#tarefa:focus{
+    outline: none;
 }
 
 #botao{
@@ -62,56 +71,92 @@ body{
 }
 
 .alltarefas{
+    
     padding: 15px;
 }
 
 .subtitulo{
     text-align: center;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
-.card{
-    display: flex;
-    max-width: 430px;
-    justify-content: center;
+.task-list{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.task-box{
     background-color: white;
-    height: 38px;
-    line-height: 38px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 15px;
+    text-align: left;
+    padding-left: 10px;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 14px;
     
 }
 
-.tarefa-text{
-    width: 320px;
-    font-size: 15px;
+.task-title{
+    padding-right: 4px;
     
-    text-align: center;
 }
+
+.el{
+    margin-left:auto ;
+}
+
 
 .concluido{
-    width: 8%;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
     border: none;
-    background-color: transparent;
-    font-size: 20px;
-    padding: 0 6px;
-    border-left: 1px solid rgba(0, 0, 0, 0.603);
+    font-size: 25px;
+    border-left: 1px solid black;
+    cursor: pointer;
+    
 }
 .concluido:hover{
     background-color: lightgreen;
 }
 
-.remover{
-    width: 8%;
+.removido{
+    height: 50px;
+    padding: 5px;
+    background-color: white;
     border: none;
-    background-color: transparent;
-    font-size: 20px;
-    padding: 0 6px;
-    border-left: 1px solid rgba(0, 0, 0, 0.603);
+    font-size: 25px;
+    border-left: 1px solid black;
+    margin-left: 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
+    
 }
 
-.remover:hover{
+.removido:hover{
     background-color: lightcoral;
 }
+
+.hide{
+    display: none;
+}
+
+.task-list li.done{
+    background-color: springgreen;
+    text-decoration: line-through;
+
+}
+
+
+
+
+
+
 
