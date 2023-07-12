@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(45deg,#FFE53B,#00FFFF);
+    height: 100vh;
+}
+
+.container{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.titulo{
+    text-align: center;
+    margin: 30px ;
+}
+
+#tarefa{
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+#botao{
+    height: 40px;
+    width: 17%;
+    font-size: 20px;
+    border: none;
+    border-left: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    margin-left: -4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+#botao:hover{
+    background-color: #00E5FF;
+    transform: scale(1.08);
+    
+}
+
+.alltarefas{
+    padding: 15px;
+}
+
+.subtitulo{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    display: flex;
+    max-width: 430px;
+    justify-content: center;
+    background-color: white;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 15px;
+    
+}
+
+.tarefa-text{
+    width: 320px;
+    font-size: 15px;
+    
+    text-align: center;
+}
+
+.concluido{
+    width: 8%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0 6px;
+    border-left: 1px solid rgba(0, 0, 0, 0.603);
+}
+.concluido:hover{
+    background-color: lightgreen;
+}
+
+.remover{
+    width: 8%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0 6px;
+    border-left: 1px solid rgba(0, 0, 0, 0.603);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.remover:hover{
+    background-color: lightcoral;
+}
+
