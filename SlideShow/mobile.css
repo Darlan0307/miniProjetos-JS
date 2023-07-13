@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1200px) {
+    .container-slide{
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .container-items{
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .item{
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .item img{
+        height: 60vh;
+        width: 80vw;   
+    }
+}
+
+@media screen and (max-width:550px){
+    .container-slide{
+        height: 40vh;
+        
+    }
+
+    .container-items{
+        height: 40vh;
+        
+    }
+
+    .item{
+        height: 40vh;
+        
+    }
+
+    .item img{
+        height: 40vh;
+        
+    }
+}
