@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(173, 216, 230, 0.603);
+    position: relative;
+    height: 90vh;
+}
+
+header{
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    width: 90vw;
+    margin: auto;
+    text-align: left;
+}
+
+main h2{
+    
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+ul{
+    list-style-type: '\1F517\00A0';
+    list-style-position: inside;
+    columns: 2;
+    
+    
+}
+
+ul li{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    margin: auto;
+}
+
+img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 5%;
+    border-radius: 10px;
+}
+
+
+
