@@ -20,6 +20,11 @@ header{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.712);
 }
 
+div#voltar{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
 .container-slide{
     display: flex;
     justify-content: space-between;
