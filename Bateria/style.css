@@ -60,3 +60,9 @@ main{
     border-color: #ffcc00;
     box-shadow: 0 0 40px #ffcc00;
 }
+
+@media screen and (min-width:500px){
+    .title{
+        margin: 15vh auto;
+    }
+}

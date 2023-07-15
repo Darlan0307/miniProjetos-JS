@@ -61,6 +61,6 @@ exibir(sons);
 
 document.getElementById('container').addEventListener('click', AtivarDiv)
 
-window.addEventListener('keydow',AtivarDiv)
+window.addEventListener('keydown',AtivarDiv)
 
 
