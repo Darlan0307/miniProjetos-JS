@@ -21,7 +21,7 @@ main{
 }
 
 .title{
-    margin: 20vh auto;
+    margin: 1rem auto;
     color: #ffcc00;
     font-size: calc(6vw + 20px);
     text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black;
@@ -52,4 +52,11 @@ main{
     border: 2px solid white;
     user-select: none;
     cursor: pointer;
+    transition: transform .3s;
+}
+
+.active{
+    transform: scale(1.2);
+    border-color: #ffcc00;
+    box-shadow: 0 0 40px #ffcc00;
 }
