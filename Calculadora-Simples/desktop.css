@@ -17,5 +17,8 @@
         line-height: 25px;
     }
 
+    .botao:focus{
+        outline: none;
+    }
     
 }

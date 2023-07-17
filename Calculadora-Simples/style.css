@@ -19,7 +19,7 @@ html,body{
     border-radius: 20px;
     box-shadow: 4px 4px 12px black;
     padding: 1.5rem;
-    
+    user-select: none;
     
     
     position: absolute;
@@ -63,7 +63,10 @@ html,body{
 
 .botao:active{
     transform: scale(0.6);
+
 }
+
+
 
 .clean{
     background-color: rgb(240, 96, 96);
@@ -86,4 +89,8 @@ html,body{
     color: white;
     font-weight: bold;
     
+}
+
+.botao:focus{
+    outline: none;
 }
