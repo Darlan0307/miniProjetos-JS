@@ -8,7 +8,7 @@
 
 body{
     padding: 80px;
-    background-color: #99c089;
+    background-color: lightcyan;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -22,12 +22,12 @@ button{
 }
 
 .calculadora{
-    background-color: #575757;
+    background-color: #414040;
     width: 350px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 6px 8px 0px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
 
 }
 
@@ -37,7 +37,7 @@ button{
     align-items: flex-end;
     width: 100%;
     height: 80px;
-    background-color: #bcd1c0;
+    background-color: #abd39c;
     border-radius: 10px;
     margin-bottom: 1rem;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
