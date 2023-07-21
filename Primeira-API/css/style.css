@@ -57,7 +57,11 @@ body{
 .informacoes h3{
     text-align: center;
     font-weight: bold;
-    
+    font-size: 20px;
+}
+
+#ico{
+    font-size: 35px;
 }
 
 #botao{
