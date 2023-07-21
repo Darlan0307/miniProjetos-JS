@@ -41,3 +41,7 @@ const tempoRestante = () => {
 }
 
 contagemRegressiva(tempoRestante());
+
+document.querySelector('.botao').addEventListener('click',function(){
+    alert("A página sera criada em breve");
+})
