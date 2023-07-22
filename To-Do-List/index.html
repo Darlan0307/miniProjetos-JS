@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
-<body>
+<body id="corpo">
     <main class="container">
         <div class="title">TODO-LIST</div>
         <ul class="container-tarefas">
-            <li><span><input type="checkbox" name="realizada" id="realizada"></span>tarefa1 <button id="remover">X</button></li>
-            <li><span><input type="checkbox" name="realizada" id="realizada"></span>tarefa1 <button id="remover">X</button></li>
-            <li><span><input type="checkbox" name="realizada" id="realizada"></span>teste 3<button id="remover">X</button></li>
+            <li class="template hide">
+                <input type="checkbox" name="realizada" id="realizada">
+                <span class="task-title">teste</span> <button id="remover">X</button></li>
+            
+            
             
         </ul>
         <div class="form">
             <span id="estilo1">^</span>
-            <input type="text" name="text-tarefa" id="text-tarefa" placeholder="Escreva e tecle Enter para adicionar">
+            <input type="text" name="text-tarefa" id="text-tarefa" placeholder="Tecle Enter">
             <span id="estilo2">^</span>
         </div>
         
