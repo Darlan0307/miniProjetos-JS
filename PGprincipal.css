@@ -18,7 +18,7 @@ div.social{
 }
 
 header{
-    padding-top: 1.5rem;
+    padding-top: .5rem;
     text-align: center;
 }
 
@@ -56,15 +56,20 @@ a{
     margin: auto;
 }
 
-img{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    bottom: 0;
-    right: 5%;
-    border-radius: 10px;
-}
 
+footer{
+  margin-top: .5rem;
+  
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+footer img{
+  position: relative;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
 .Btn {
     border: none;
     border-radius: 50%;
