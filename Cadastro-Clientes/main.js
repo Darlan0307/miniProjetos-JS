@@ -5,12 +5,11 @@ const openModal = () => document.getElementById('modal')
 
 const closeModal = () => document.getElementById('modal')
     .classList.remove('active')
-
-
+    
 
 const tempCliente = {
-    nome: 'maria',
-    email:'mariaChagas@gmail.com',
+    nome: 'darlan',
+    email:'darlanChagas@gmail.com',
     celular:'8789454',
     cidade: 'Jaboatao'
 }
@@ -25,3 +24,6 @@ document.getElementById('cadastrarCliente')
 
 document.getElementById('modalClose')
     .addEventListener('click', closeModal)
+
+    createClient(tempCliente);
+    console.log(tempCliente);
