@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="styleLine">
+        <hr>
+        <div class="icos">
+            <i class="bi bi-person-vcard" id="isolado1"></i>
+            <i class="bi bi-geo-alt-fill" id="isolado2"></i>
+            <i class="bi bi-credit-card"></i>
+        </div>
+    </div>
+
+    <form class="form-container">
+        <h2>Cadastre o seu endereço</h2>
+        <p>Preencha os campos corretamente</p>
+        <input type="text" name="cep" id="cep" placeholder="Digite seu CEP..." required autocomplete="off">
+        <div class="campos" >
+            <input autocomplete="off" type="text" name="rua" id="rua" placeholder="Rua:" required>
+            <input autocomplete="off" type="text" name="numcasa" id="numcasa" placeholder="Numero da residência:" required>
+            <input autocomplete="off" type="text" name="complemento" id="complemento" placeholder="Complemento:">
+            <input autocomplete="off" type="text" name="bairro" id="bairro" placeholder="Bairro:" required>
+            <input autocomplete="off" type="text" name="cidade" id="cidade" placeholder="Cidade:" required>
+            <input autocomplete="off" type="text" name="estado" id="estado" placeholder="Estado:" required>
+        </div>
+        <button id="submit">Enviar</button>
+    </form>
+    <div class="msg hide">
+        <h1>Teste</h1>
+    </div>
+</body>
+</html>
