@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <h1>Seja bem-vindo!</h1>
+        </div>
+        <div class="campoform">
+            <h3>Crie sua conta</h3>
+            <p>Registre-se para desbloquear todas funcionalidades do sistema</p>
+            <form class="form">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <input type="password" name="senha" id="senha" placeholder="Crie uma senha">
+                <p class="pergunta">Quer ajuda para criar uma senha segura?<a id="gerarSenha">Clique aqui</a></p>
+                <div class="camposenha hide">
+                    <p class="campotitle">Aqui está a sua senha:</p>
+                    <p id="senhaText">ASDSAFFASD</p>
+                    <button id="copy">Copiar</button>
+                </div>
+                <input type="password" name="senhaok" id="senhaok" placeholder="Confirme a sua senha">
+                <button type="submit" id="botao">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
